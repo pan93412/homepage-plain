@@ -1,55 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>pan93412, Yi-Jyun Pan</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        line-height: 1.5;
+        background-color: hsl(20, 6%, 96%);
+        color: hsl(20, 0%, 15%);
+      }
+
+      @media (min-width: 1024px) {
         body {
-            font-family: "Times New Roman", serif;
+          max-width: 1024px;
+          margin: 4em auto;
         }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+            background-color: hsl(24, 10%, 10%);
+            color: hsl(20, 6%, 90%);
+        }
+
+        a {
+            color: lightblue;
+        }
+      }
     </style>
 
-    <script defer src="https://umami.pan93.com/script.js" data-website-id="76a95099-978a-419e-a653-2d69a3c1cb67"></script>
-</head>
-<body>
-<main>
-    <h1>Yi-Jyun Pan</h1>
-    <p>An intermediate software engineer and a student, and a Zeabur backend intern.</p>
-    <p>
-        <small>I heard that a professional engineer's homepage should be ugly, so I <em>re-design</em> it :)</small>
-    </p>
+    <script
+      defer
+      src="https://umami.pan93.com/script.js"
+      data-website-id="76a95099-978a-419e-a653-2d69a3c1cb67"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <h1>Yi-Jyun Pan</h1>
+      <p>
+        Backend intern at <a href="https://zeabur.com">Zeabur</a>, also an
+        undergraduate. Design, translate and contribute to OSS sometimes.
+      </p>
 
-    <section class="social-links">
+      <h2>Contact me</h2>
+      <section class="social-links">
         <ul>
-            <li>CV: <a href="https://link.pan93.com/cv">link@pan93412:cv (proprietary warning)</a></li>
-            <li>GitHub: <a href="https://github.com/pan93412">pan93412</a></li>
-            <li>Email:
-                <x-email></x-email>
-            </li>
-            <li>Twitter: <a href="https://twitter.com/byStarTW">@byStarTW</a></li>
-            <li>Mastodon: <a href="https://social.slat.org/@pan93412">@pan93412@social.slat.org</a></li>
-            <li>Facebook: <a href="https://facebook.com/pan93412TW">Yi-Jyun Pan</a></li>
-            <li>Discord Group: <a href="https://discord.gg/TVUjgNA4WD">CuGroup</a></li>
+          <li>GitHub: <a href="https://github.com/pan93412">pan93412</a></li>
+          <li>
+            Email:
+            <x-email></x-email>
+          </li>
+          <li>Twitter: <a href="https://twitter.com/byStarTW">@byStarTW</a></li>
+          <li>
+            Mastodon:
+            <a href="https://social.slat.org/@pan93412"
+              >@pan93412@social.slat.org</a
+            >
+          </li>
+          <li>
+            Facebook: <a href="https://facebook.com/pan93412TW">Yi-Jyun Pan</a>
+          </li>
         </ul>
-    </section>
+      </section>
 
-    <section class="❤️-zeabur">
-        <p>This site is hosted on <a href="https://zeabur.com/?referralCode=pan93412">Zeabur</a> – use my code and get
-            rewards (?)</p>
-    </section>
+      <section class="❤️-zeabur">
+        <p>
+          This site is powered by
+          <a href="https://zeabur.com/?referralCode=pan93412">Zeabur</a>.
+        </p>
+      </section>
 
-    <script>
+      <script>
         setTimeout(() => {
-            const REVDT0RFX1RISVNfVEVYVF9BTkRfRklORF9NRV9UT19HRVRfQV9XVEZfOik_ = "bWVAcGFuOTMuY29t";
+          const REVDT0RFX1RISVNfVEVYVF9BTkRfRklORF9NRV9UT19HRVRfQV9XVEZfOik_ =
+            "bWVAcGFuOTMuY29t";
 
-            for (const $el of document.getElementsByTagName("x-email")) {
-                const e = atob(REVDT0RFX1RISVNfVEVYVF9BTkRfRklORF9NRV9UT19HRVRfQV9XVEZfOik_);
-                $el.innerHTML = `<a href="mailto:${e}">${e}</a>`;
-            }
+          for (const $el of document.getElementsByTagName("x-email")) {
+            const e = atob(
+              REVDT0RFX1RISVNfVEVYVF9BTkRfRklORF9NRV9UT19HRVRfQV9XVEZfOik_
+            );
+            $el.innerHTML = `<a href="mailto:${e}">${e}</a>`;
+          }
         }, Math.random() * 1145.14);
-    </script>
-</main>
-</body>
+      </script>
+    </main>
+  </body>
 </html>
