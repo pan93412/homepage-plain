@@ -12,7 +12,10 @@
       src="https://umami.pan93.com/script.js"
       data-website-id="76a95099-978a-419e-a653-2d69a3c1cb67"
     ></script>
-    <script src="./src/email.js" defer></script>
+
+    <script type="module">
+    import "./src/email.js";
+    </script>
   </head>
   <body>
     <main>
@@ -41,15 +44,29 @@
         </p>
 
         <p>
-          On the backend, my development skills include proficiency in languages like
-          <a href="https://github.com/nkust-monitor-iot-project-2024/central">Go</a>,
-          <a href="https://github.com/nkust-monitor-iot-project-2024/iot-system">Rust</a>,
+          On the backend, my development skills include proficiency in languages
+          like
+          <a href="https://github.com/nkust-monitor-iot-project-2024/central"
+          >Go</a>,
+          <a href="https://github.com/nkust-monitor-iot-project-2024/iot-system"
+          >Rust</a>,
           <a href="https://github.com/database-playground/app-sf">PHP</a>, and
           Node.js.
         </p>
 
         <p>
-            I have extensive experience with PaaS solutions like Zeabur, ensuring applications run seamlessly on such platforms. Additionally, I am proficient with cloud providers including AWS (EC2, SES), GCP (GCE), Cloudflare (R2), and DigitalOcean (Droplet, Docker registry). I am expert in Git and has been adapted to established contribution flows and committing guidelines, such as <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits</a>, and CI/CD pipelines primarily using GitHub Actions. I also collaborate on a Docker-based builder solution, <a href="https://github.com/zeabur/zbpack">Zeabur Pack</a>, and work extensively with Kubernetes, which underpins Zeabur's infrastructure.
+          I have extensive experience with PaaS solutions like Zeabur, ensuring
+          applications run seamlessly on such platforms. Additionally, I am
+          proficient with cloud providers including AWS (EC2, SES), GCP (GCE),
+          Cloudflare (R2), and DigitalOcean (Droplet, Docker registry). I am
+          expert in Git and has been adapted to established contribution flows
+          and committing guidelines, such as <a
+            href="https://www.conventionalcommits.org/en/v1.0.0/"
+          >Conventional Commits</a>, and CI/CD pipelines primarily using GitHub
+          Actions. I also collaborate on a Docker-based builder solution, <a
+            href="https://github.com/zeabur/zbpack"
+          >Zeabur Pack</a>, and work extensively with Kubernetes, which
+          underpins Zeabur's infrastructure.
         </p>
 
         <p>
@@ -60,16 +77,25 @@
 
         <ul>
           <li>
-            <a href="https://github.com/nkust-monitor-iot-project-2024/central">NKUST IC IoT Projects (Go, 2024/06)</a>: Written in Go, applied
+            <a href="https://github.com/nkust-monitor-iot-project-2024/central"
+            >NKUST IC IoT Projects (Go, 2024/06)</a>: Written in Go, applied
             RabbitMQ, GraphQL, gRPC, OpenTelemetry, mTLS, PostgreSQL, etc.
           </li>
           <li>
-            <a href="https://github.com/nkust-monitor-iot-project-2024/iot-system">NKUST IC IoT Projects (Rust, 2024/12)</a>: Written in Rust, applied
+            <a
+              href="https://github.com/nkust-monitor-iot-project-2024/iot-system"
+            >NKUST IC IoT Projects (Rust, 2024/12)</a>: Written in Rust, applied
             S3 (R2), GraphQL, NATS, PostgreSQL, etc. Communicates entirely with
             NATS.
           </li>
           <li>
-            <a href="https://github.com/database-playground/app-sf">Database Playground</a>: Mostly monolithic, but <a href="https://github.com/database-playground/sqlrunner-v2">some services</a> have been split as HTTP services. It used to <a href="https://github.com/database-playground/backend-go">be in the microservice structure</a>, but I found Symfony was more suitable for rapid development and prototype validation.
+            <a href="https://github.com/database-playground/app-sf"
+            >Database Playground</a>: Mostly monolithic, but <a
+              href="https://github.com/database-playground/sqlrunner-v2"
+            >some services</a> have been split as HTTP services. It used to <a
+              href="https://github.com/database-playground/backend-go"
+            >be in the microservice structure</a>, but I found Symfony was more
+            suitable for rapid development and prototype validation.
           </li>
         </ul>
 
@@ -82,7 +108,10 @@
         <p>
           Additionally, I design apps using Swift for the Apple ecosystem and
           React Native as an amateur. I have experience with the development of
-          macOS and iOS apps, such as <a href="https://github.com/pan93412/string-catalog-merger">A Helper for Merging the String Catalog</a> and helping improve concurrency in some Swift projects.
+          macOS and iOS apps, such as <a
+            href="https://github.com/pan93412/string-catalog-merger"
+          >A Helper for Merging the String Catalog</a> and helping improve
+          concurrency in some Swift projects.
         </p>
 
         <p>
@@ -95,18 +124,17 @@
 
         <p>
           I am an active contributor to open-source projects such as Symfony,
-          Git, Keka, and various GNU software. Additionally, I actively participate
-          in several developer communities on Telegram and Discord, where you
-          can often find me.
+          Git, Keka, and various GNU software. Additionally, I actively
+          participate in several developer communities on Telegram and Discord,
+          where you can often find me.
         </p>
 
         <p>
           My development environment is built on a powerful MacBook Pro
-          utilizing Nix and <a href="https://devenv.sh">Devenv</a>. I favor VS Code over
-          JetBrains' IDEs due to better compatibility with Devenv.
+          utilizing Nix and <a href="https://devenv.sh">Devenv</a>. I favor VS
+          Code over JetBrains' IDEs due to better compatibility with Devenv.
         </p>
       </section>
-    </main>
 
       <section>
         <h2>Experiences</h2>
@@ -146,7 +174,9 @@
             Email:
             <x-email></x-email>
           </li>
-          <li>Twitter (X): <a href="https://twitter.com/byStarTW">@byStarTW</a></li>
+          <li>
+            Twitter (X): <a href="https://twitter.com/byStarTW">@byStarTW</a>
+          </li>
           <li>
             Threads: <a href="https://www.threads.net/@pan93412">@pan93412</a>
           </li>
