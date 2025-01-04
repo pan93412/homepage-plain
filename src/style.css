@@ -16,9 +16,9 @@ body {
   color: hsl(20, 0%, 15%);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   body {
-    max-width: 1024px;
+    max-width: 900px;
     margin: 4em auto;
   }
 }
