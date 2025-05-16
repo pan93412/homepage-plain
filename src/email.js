@@ -1,10 +1,18 @@
-setTimeout(() => {
-  const REVDT0RFX1RISVNfVEVYVF9BTkRfRklORF9NRV9UT19HRVRfQV9XVEZfOik_ = "bWVAcGFuOTMuY29t";
+class Email extends HTMLElement {
+  REVDT0RFX1RISVNfVEVYVF9BTkRfRklORF9NRV9UT19HRVRfQV9XVEZfOik_ = "bWVAcGFuOTMuY29t"
 
-  for (const $el of document.getElementsByTagName("x-email")) {
-    const e = atob(
-      REVDT0RFX1RISVNfVEVYVF9BTkRfRklORF9NRV9UT19HRVRfQV9XVEZfOik_,
-    );
-    $el.innerHTML = `<a href="mailto:${e}">${e}</a>`;
+  connectedCallback() {
+    const shadow = this.attachShadow({ mode: "open" });
+    const linkElement = document.createElement('a');
+
+    const email = atob(this.REVDT0RFX1RISVNfVEVYVF9BTkRfRklORF9NRV9UT19HRVRfQV9XVEZfOik_);
+    linkElement.innerText = email;
+    linkElement.href = `mailto: ${email}`;
+
+    setTimeout(() => {
+      shadow.appendChild(linkElement);
+    }, Math.random() * 1145.14);
   }
-}, Math.random() * 1145.14);
+}
+
+customElements.define('x-email', Email)
