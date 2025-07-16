@@ -7,10 +7,10 @@
   "author": "",
   "license": "Apache-2.0",
   "type": "module",
-  "packageManager": "pnpm@9.15.2+sha512.93e57b0126f0df74ce6bff29680394c0ba54ec47246b9cf321f0121d8d9bb03f750a705f24edc3c1180853afd7c2c3b94196d0a3d53d3e069d9e2793ef11f321",
+  "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad",
   "devDependencies": {
-    "dprint": "^0.49.1",
-    "vite": "^6.3.5"
+    "dprint": "^0.50.1",
+    "vite": "^7.0.4"
   },
   "scripts": {
     "format": "dprint fmt",
