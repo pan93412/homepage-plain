@@ -12,8 +12,8 @@ body {
     "Helvetica Neue",
     sans-serif;
   line-height: 1.5;
-  background-color: hsl(20, 6%, 96%);
-  color: hsl(20, 0%, 15%);
+  background-color: oklch(98.5% 0.001 106.423);
+  color: oklch(14.7% 0.004 49.25);
 }
 
 @media (min-width: 900px) {
@@ -25,11 +25,15 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: hsl(24, 10%, 10%);
-    color: hsl(20, 6%, 90%);
+    background-color: oklch(21.6% 0.006 56.043);
+    color: oklch(97% 0.001 106.424);
   }
 
   a {
-    color: lightblue;
+    color: oklch(82.8% 0.111 230.318);
+  }
+
+  a:visited {
+    color: oklch(74.6% 0.16 232.661);
   }
 }
