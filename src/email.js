@@ -5,6 +5,8 @@ class Email extends HTMLElement {
     const shadow = this.attachShadow({ mode: "open" });
     const linkElement = document.createElement("a");
 
+    linkElement.style.color = "oklch(82.8% 0.111 230.318)";
+
     const email = atob(this.REVDT0RFX1RISVNfVEVYVF9BTkRfRklORF9NRV9UT19HRVRfQV9XVEZfOik_);
     linkElement.innerText = email;
     linkElement.href = `mailto: ${email}`;
